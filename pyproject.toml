@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "FinancialFileFetcher"
+version = "0.1.1"
+description = "This is an API client for Last 10K API. It facilitates getting financial files and data from SEC website."
+authors = ["Cece(Zhaokailu)Gu"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.5"
+DateTime = "^4.3"
+requests = "^2.26.0"
+bs4 = "^0.0.1"
+lxml = "^4.7.1"
+
+[tool.poetry.dev-dependencies]
+myst-nb = "^0.13.1"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^1.0.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
